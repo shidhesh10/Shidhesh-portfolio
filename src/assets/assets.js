@@ -1,0 +1,154 @@
+import { FaEnvelope, FaLightbulb, FaPaintBrush, FaCode, FaUsers, FaReact, FaServer, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
+
+import profileImg from '../assets/profile.png';
+import profileImgFull from '../assets/profile-full.png';
+import project1 from '../assets/project1.png';
+import project2 from '../assets/project2.png';
+import project3 from '../assets/project3.png';
+import project4 from '../assets/project4.png';
+
+
+export const assets = {
+    profileImg,
+    profileImgFull,
+}
+
+
+export const aboutInfo = [
+    {
+      icon: FaLightbulb,
+      title: 'Innovative Thinking',
+      description: 'I focus on solving real-world problems by building practical, scalable, and creative web solutions.',
+      color: 'text-purple'
+    },
+    {
+      icon: FaPaintBrush,
+      title: 'Design Oriented',
+      description: 'I build intuitive and visually engaging interfaces with a strong focus on user experience and responsiveness.',
+      color: 'text-pink'
+    },
+    {
+      icon: FaCode,
+      title: 'Clean & Scalable Code',
+      description: 'I write well-structured, maintainable code following modern standards, best practices, and efficient design patterns.',
+      color: 'text-blue'
+    },
+    {
+      icon: FaUsers,
+      title: 'Team Player',
+      description: 'I collaborate effectively with teams and adapt quickly to new challenges and technologies.',
+      color: 'text-green'
+    },
+  ];
+
+
+
+export const skills = [
+  {
+    title: 'Frontend Development',
+    icon: FaReact,
+    description: 'Building responsive and dynamic user interfaces with modern JavaScript frameworks.',
+    tags: ['React.js', 'TypeScript', 'JavaScript (ES6+)', 'Tailwind CSS', 'Bootstrap', 'EJS']
+  },
+  {
+    title: 'Backend Development',
+    icon: FaServer,
+    description: 'Designing scalable server-side applications and secure RESTful APIs.',
+    tags: ['Node.js', 'Express.js', 'REST APIs', 'JWT Authentication', 'Passport.js', 'MVC Architecture']
+  },
+  {
+    title: 'Database Management',
+    icon: FaDatabase,
+    description: 'Designing, optimizing, and managing NoSQL databases for scalable applications.',
+    tags: ['MongoDB Atlas', 'Mongoose ODM', 'Data Modeling', 'connect-mongo']
+  },
+  {
+    title: 'UI/UX & Responsive Design',
+    icon: FaPaintBrush,
+    description: 'Creating intuitive, responsive, and accessible user experiences.',
+    tags: ['Responsive Design', 'Accessibility', 'UI Optimization', 'Mobile-First Design']
+  },
+  {
+    title: 'Cloud & Deployment',
+    icon: FaCloud,
+    description: 'Deploying and managing production-ready applications in cloud environments.',
+    tags: ['Render', 'Vercel', 'Cloudinary', 'CI/CD Basics', 'Environment Configuration']
+  },
+  {
+    title: 'Tools & Development Workflow',
+    icon: FaTools,
+    description: 'Tools and technologies used in daily development and debugging.',
+    tags: ['Git', 'GitHub', 'Postman', 'Hoppscotch', 'VS Code']
+  }
+];
+
+
+
+export const projects = [
+  {
+    title: "TeamSync | B2B Project Management SaaS",
+    description:
+      "A scalable multi-tenant project management platform with workspace-based RBAC, Projects→Epics→Tasks workflow, advanced search/filters, and analytics dashboard.",
+    image: project1,
+    tech: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Google OAuth"],
+    icons: [FaReact, FaNodeJs, FaDatabase,],
+    demo: "https://teamsync-shidhesh.vercel.app/",
+    code: "https://github.com/shidhesh10/MERN-B2B-Teams-Project-Management-Saas",
+  },
+  {
+    title: "BookMyStay | Airbnb-Inspired Rental Marketplace",
+    description: "A production-ready full-stack rental marketplace with secure authentication, role-based access, cloud image storage, and interactive map integration.",
+    image: project2,
+    tech: ["Node.js", "Express", "MongoDB", "EJS", "Bootstrap", "Cloudinary", "MapQuest API"],
+    icons: [FaNodeJs, FaDatabase,],
+    demo: "https://bookmystay-77p8.onrender.com/listings",
+    code: "https://github.com/shidhesh10/BookMyStay"
+  },
+  {
+    title: "Portfolio Website",
+    description: "A responsive personal portfolio built to showcase projects, skills, and experience with smooth animations and a functional contact form.",
+    image: project3,
+    tech: ["React", "Vite", "Tailwind CSS", "Framer Motion", "Formspree"],
+    icons: [FaReact, FaEnvelope],
+    demo: "#",
+    code: "#"
+  },
+  {
+    title: "User Management CRUD App",
+    description:
+      "A full-stack CRUD user management system built as an assessment task, featuring a responsive UI, form validation, delete confirmation modal, and a config-driven form/table architecture.",
+    image: project4,
+    tech: ["React", "Vite", "Tailwind CSS", "JSON Server", "Node.js", "Render", "Vercel"],
+    icons: [FaReact, FaNodeJs, FaDatabase, FaCloud],
+    demo: "https://crud-user-app-shidhesh.vercel.app",
+    code: "https://github.com/shidhesh10/CRUD-user",
+  },
+];
+
+
+export const workData = [
+  {
+    role: "Full Stack Developer & Trainer",
+    company: "CII Computer Institute",
+    duration: "Dec. 2023 - Present",
+    description:
+      "Training and mentoring aspiring developers in full stack technologies while guiding them in building practical projects and improving real-world coding skills.",
+    color: "purple"
+  },
+  // {
+  //   role: "Web Developer",
+  //   company: "Digital Solutions LLC",
+  //   duration: "2018 - 2020",
+  //   description:
+  //     "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
+  //   color: "pink"
+  // },
+  // {
+  //   role: "Junior Developer",
+  //   company: "StartUp Ventures",
+  //   duration: "2016 - 2018",
+  //   description:
+  //     "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
+  //   color: "blue"
+  // }
+];
