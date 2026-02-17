@@ -8,6 +8,19 @@ Designed with performance, clean UI, and smooth user experience in mind, this po
 
 ---
 
+## 🚀 Tech Stack
+
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-0F172A?style=for-the-badge&logo=tailwind-css&logoColor=38BDF8" />
+  <img src="https://img.shields.io/badge/FramerMotion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+  <img src="https://img.shields.io/badge/Formspree-EC5990?style=for-the-badge&logo=maildotru&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</p>
+
+---
+
 ## ✨ Key Features
 
 - Modern UI with responsive design (Mobile + Desktop)
@@ -17,16 +30,6 @@ Designed with performance, clean UI, and smooth user experience in mind, this po
 - Functional contact form integrated with Formspree
 - Optimized build using Vite
 - Deployed on Vercel
-
----
-
-## 🚀 Tech Stack
-
-- React (Vite)
-- Tailwind CSS
-- Framer Motion
-- Formspree (Contact Handling)
-- Vercel (Deployment)
 
 ---
 
