@@ -135,20 +135,4 @@ export const workData = [
       "Training and mentoring aspiring developers in full stack technologies while guiding them in building practical projects and improving real-world coding skills.",
     color: "purple"
   },
-  // {
-  //   role: "Web Developer",
-  //   company: "Digital Solutions LLC",
-  //   duration: "2018 - 2020",
-  //   description:
-  //     "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
-  //   color: "pink"
-  // },
-  // {
-  //   role: "Junior Developer",
-  //   company: "StartUp Ventures",
-  //   duration: "2016 - 2018",
-  //   description:
-  //     "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
-  //   color: "blue"
-  // }
 ];
