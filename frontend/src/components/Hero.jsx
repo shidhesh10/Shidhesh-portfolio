@@ -40,7 +40,7 @@ const Hero = () => {
                             ease: "easeInOut"
                         }}
                         className='relative rounded-full h-64 w-64 md:w-80 md:h-80 object-cover z-10 animate-float' 
-                        src={assets.profileImg} alt="Profile picture" />
+                        src={assets.profileImg} loading='eager' fetchPriority='high' decoding='async' alt="Profile picture" />
                     </div>
 
                 </div>
