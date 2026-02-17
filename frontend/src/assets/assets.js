@@ -1,11 +1,11 @@
 import { FaEnvelope, FaLightbulb, FaPaintBrush, FaCode, FaUsers, FaReact, FaServer, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 
-import profileImg from '../assets/profile.png';
-import profileImgFull from '../assets/profile-full.png';
-import project1 from '../assets/project1.png';
-import project2 from '../assets/project2.png';
-import project3 from '../assets/project3.png';
-import project4 from '../assets/project4.png';
+import profileImg from '../assets/profile.webp';
+import profileImgFull from '../assets/profile-full.webp';
+import project1 from '../assets/project1.webp';
+import project2 from '../assets/project2.webp';
+import project3 from '../assets/project3.webp';
+import project4 from '../assets/project4.webp';
 
 
 export const assets = {
@@ -110,8 +110,8 @@ export const projects = [
     image: project3,
     tech: ["React", "Vite", "Tailwind CSS", "Framer Motion", "Formspree"],
     icons: [FaReact, FaEnvelope],
-    demo: "#",
-    code: "#"
+    demo: "https://shidhesh-bhatia.vercel.app/",
+    code: "https://github.com/shidhesh10/shidhesh-portfolio"
   },
   {
     title: "User Management CRUD App",

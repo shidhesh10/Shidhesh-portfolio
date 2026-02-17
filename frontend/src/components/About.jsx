@@ -12,7 +12,7 @@ const About = () => {
     id='about'
     className='py-20 bg-dark-200'
     >
-        <div className='container mx-0 px-6'>
+        <div className='container mx-auto px-6'>
             {/* Heading */}
             <h2 className='text-3xl font-bold text-center mb-4'>
                 About
@@ -21,10 +21,10 @@ const About = () => {
             <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16'>Get to know more about my background and passion</p>
 
             {/* Image and my journey */}
-            <div className='flex flex-col md:flex-row itmes-center gap-12'>
+            <div className='flex flex-col md:flex-row items-start gap-12'>
                 
                 {/* Image */}
-                <div className='md:w-1/2 rounded-2xl overflow-hidden'>
+                <div className='md:w-1/2 w-full rounded-2xl overflow-hidden'>
                     <motion.img 
                     initial={{opacity:0, y:50}}
                     whileInView={{opacity:1, y:0}}

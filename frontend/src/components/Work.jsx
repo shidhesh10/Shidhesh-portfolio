@@ -23,7 +23,7 @@ const Work = () => {
                 <div className='space-y-12'>
                     {
                         workData.map((data,index) => (
-                            <div key={index} className="relative pl-12 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-purple cursor-pointer hover:-translate-y-2 transition-all duration-300">
+                            <div key={index} className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-purple cursor-pointer hover:-translate-y-2 transition-all duration-300">
 
                                 {/* Timeline dot*/}
                                 <div className='absolute left-[-0.5rem] top-0 w-6 h-6 rounded-full bg-purple'>
