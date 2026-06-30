@@ -128,9 +128,17 @@ export const projects = [
 
 export const workData = [
   {
-    role: "Full Stack Developer & Trainer",
+    role: "Frontend Developer",
+    company: "Self-Employed / Freelance Technical Consultant",
+    duration: "Feb. 2026 - Present",
+    description:
+      "Architected and delivered responsive, high-performance web applications using React, Next.js, and TypeScript for diverse clients. Translated UI/UX designs into clean, production-ready code while leading, upskilling, and mentoring a small team of junior developers on agile workflows and modern frontend engineering best practices.",
+    color: "purple"
+  },
+  {
+    role: "Frontend Developer & Trainer",
     company: "CII Computer Institute",
-    duration: "Dec. 2023 - Present",
+    duration: "Dec. 2023 - Feb. 2026",
     description:
       "Training and mentoring aspiring developers in full stack technologies while guiding them in building practical projects and improving real-world coding skills.",
     color: "purple"
