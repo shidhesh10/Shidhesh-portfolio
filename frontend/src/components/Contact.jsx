@@ -33,7 +33,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <h3 className='text-lg font-semibold mb-2'>Location</h3>
-                            <p className='text-gray-400'>New Delhi, India</p>
+                            <p className='text-gray-400'>Dubai, UAE</p>
                         </div>
                     </div>
 
@@ -43,7 +43,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <h3 className='text-lg font-semibold mb-2'>Email</h3>
-                            <p className='text-gray-400'>shidheshbhatiya1004@gmail.com</p>
+                            <p className='text-gray-400'>shidhesh.dev@gmail.com</p>
                         </div>
                     </div>
 
