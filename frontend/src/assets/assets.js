@@ -132,7 +132,7 @@ export const workData = [
     company: "Self-Employed / Freelance Technical Consultant",
     duration: "Feb. 2026 - Present",
     description:
-      "Architected and delivered responsive, high-performance web applications using React, Next.js, and TypeScript for diverse clients. Translated UI/UX designs into clean, production-ready code while leading, upskilling, and mentoring a small team of junior developers on agile workflows and modern frontend engineering best practices.",
+      "Architected and delivered responsive, high-performance web applications using React and TypeScript for diverse clients. Translated UI/UX designs into clean, production-ready code while leading and upskilling.",
     color: "purple"
   },
   {
